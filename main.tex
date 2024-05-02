@@ -1,0 +1,38 @@
+\documentclass{practicaEPCC}
+\usepackage{hyperref}
+\school{Escuela Profesional de Ciencia de la Computación}
+\course{Análisis y Diseño de Algoritmos}
+\professor{Alfredo Paz Valderrama}
+\title{Tarea de Notación Asintótica y Recurrencias}
+\author{Alumno X}
+\date{\today}
+\begin{document}
+\maketitle
+\begin{abstract}
+Los siguientes ejercicios fueron resueltos por los autores a partir de la \href{https://users.dcc.uchile.cl/~gnavarro/cc40a/guia1.ps.gz}{guía 1} del curso de Algoritmos del Profesor Gonzalo Navarro de la Universidad de Chile.
+    
+\end{abstract}
+\section{Ordenando Funciones}
+Para los ordenamientos deberá comparar las funciones usando límites o sustitución. Si no incluye los métodos y operaciones que usó para encontrar las respuestas, no tendrá puntos.
+\begin{enumerate}
+    \item Ordene las funciones en orden $O()$ creciente, indicando los grupos que tienen el mismo orden.
+    \item Haga los mismo con las siguientes funciones
+
+\end{enumerate}
+
+\section{Manipulación de $O()$}
+Se puede definir $O(g(n))$ como el conjunto de todas las funciones que son $O(g(n))$. Así, ``$f(n)$ es $O(g(n))$'' se puede reescribir como $f(n) \in O(g(n))$. Abusando de la notación se dice $f(n)=O(g(n))$.
+En los siguientes ejercicios, sea $e(n) = o(1)$, $f_i(n) = O(g_i(n))$ y $f_i(n) = \Omega(h_i(n))$. Pruebe que:
+
+\begin{enumerate}
+    \item $O(O(f(n))) = O(f(n))$
+\end{enumerate}
+
+\section{Recurrencias y Funciones Generatrices}
+Resuelva las siguientes recurrencias sin usar y usando funciones generatrices. La solución debe ser exacta para infinitos $n$ (diga cuales).
+
+\begin{enumerate}
+    \item $T(n) = T(n - 1) + n - 1$, $T(1) = 2$
+\end{enumerate}
+
+\end{document}
